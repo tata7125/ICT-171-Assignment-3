@@ -14,6 +14,13 @@ This project involves the deployment of a cloud-based travel blog using an Amazo
 
 The project demonstrates the ability to provision and manage cloud infrastructure, configure a web server environment, and deploy a dynamic website accessible over the internet. Additional configuration such as domain integration and security (SSL/TLS) was implemented to improve accessibility and security.  
 
-Overall, this project showcases practical skills in cloud computing, server administration, and web application deployment.  
+Overall, this project showcases practical skills in cloud computing, server administration, and web application deployment. 
+
+## Introduction  
+My blog website will showcase 5 different countries with recommemendations for each country such as places to visit, eat, and activities. 
+
+
+## EC2 Instance Setup  
+**Cloud Service Provider:** Amazon Web Services 
 
 
