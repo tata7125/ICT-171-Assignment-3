@@ -8,5 +8,12 @@
 **Domain From:** GoDaddy  
 **Cloud Service Provider:** AWS EC2  
  
-**Overview**  
+## Overview   
+
+This project involves the deployment of a cloud-based travel blog using an Amazon EC2 instance. The website was first configured usig NGINX, followed by the installation of WordPress as the content management system.  
+
+The project demonstrates the ability to provision and manage cloud infrastructure, configure a web server environment, and deploy a dynamic website accessible over the internet. Additional configuration such as domain integration and security (SSL/TLS) was implemented to improve accessibility and security.  
+
+Overall, this project showcases practical skills in cloud computing, server administration, and web application deployment.  
+
 
