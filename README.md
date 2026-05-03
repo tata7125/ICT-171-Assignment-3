@@ -1,6 +1,6 @@
 # ICT-171-Assignment-3
 
-**Student Details **  
+## Student Details 
 **Name:** Troi Arbollente  
 **Student ID:** 35526226  
 **Website:** https://www.countryhopper.life/  
