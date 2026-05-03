@@ -37,6 +37,36 @@ And access the instance using:
 ssh -i ict171.pem ubuntu@3.25.154.77
 ```
 
+## NGINX 
+**Installing**
+In my terminal I entered the following code to install NGINX.  
+```
+sudo apt update
+sudo  apt install nginx -y
+```
+**Running**  
+```
+sudo systemctl start nginx
+sudo systemctl enable nginx
+```
+## Obtaining a DNS  
+1. Logged in to GoDaddy
+2. Bought a domain name
+3. Went to My Products -> Domains -> Manage DNS
+4. Added a new record:
+   ```
+   Type  Name  Value        TTL 
+   A     @     3.25.154.77  600
+   ```
+
+## 
+
+
+
+
+
+
+
 
 
 
