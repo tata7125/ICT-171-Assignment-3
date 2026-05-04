@@ -18,9 +18,9 @@ Overall, this project showcases practical skills in cloud computing, server admi
 
 
 ## EC2 Instance Setup  
-**Cloud Service Provider:** Amazon Web Services
-**Instance Type:** t3.micro
-**OS:** Ubuntu 24.04
+**Cloud Service Provider:** Amazon Web Services  
+**Instance Type:** t3.micro  
+**OS:** Ubuntu 24.04  
 
 ## Security Group  
 **Ports:** 22 SSH Access, 80 HTTP Access, 443 HTTPS Access  
