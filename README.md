@@ -38,7 +38,7 @@ ssh -i ict171.pem ubuntu@3.25.154.77
 ```
 
 ## NGINX 
-**Installing**
+**Installing**  
 In my terminal I entered the following code to install NGINX.  
 ```
 sudo apt update
