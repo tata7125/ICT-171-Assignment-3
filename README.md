@@ -57,6 +57,7 @@ sudo systemctl enable nginx
    ```
    Type  Name  Value        TTL 
    A     @     3.25.154.77  600
+   A    www    3.25.154.77  600
    ```
 
 ## Enable Cert Bot for HTTPS 
