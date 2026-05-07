@@ -59,7 +59,14 @@ sudo systemctl enable nginx
    A     @     3.25.154.77  600
    ```
 
-## 
+## Enable Cert Bot for HTTPS 
+```
+$ sudo snap install --classic certbot
+$ sudo ln -s /snap/bin/certbot /usr/local/bin/certbot
+$ sudo certbot --nginx
+```
+
+
 
 
 
