@@ -157,6 +157,8 @@ Enter your details and press 'Install Wordpress'
 
 If you do not see any prompt when you go to your IP or if it shows 403 Forbidden, go to 'Errors & Fixes.md' and follow the steps. 
 
+## Script 
+
 
 
 
