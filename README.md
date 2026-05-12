@@ -103,6 +103,53 @@ You will then be prompted with
 ```
 Enter current password for root (enter for none):
 ```
+Enter 'Yes' for options that are displayed  
+Restart Maria DB  
+```
+sudo systemctl restart mariadb
+```
+## Install PHP 
+```
+sudo apt install php php-mysql php-cli php-gd php-common
+```
+## WordPress  
+I will be using WordPress to edit and design my website  
+Run these commands to install  
+```
+sudo apt install wget
+sudo apt install unqip
+sudo wget https://wordpress.org/latest.zip
+unzip latest.zip
+```
+You now then have to copy the files to your /var/www/html by running this command  
+```
+sudo cp -r wordpress/* /var/www/html/
+```
+Change ownership of the files by running these commands  
+```
+cd /var/www/html
+sudo chown www-data:www-data -R /var/www/html
+sudo rm /var/www/html/index.html
+```
+Set up a database and a user account so WordPress can access MariaDB/MySQL  
+```
+sudo mysql -u root -p
+```
+<img width="626" height="53" alt="image" src="https://github.com/user-attachments/assets/3b1e3fb5-0e12-4e69-8fe6-96f6ae35c7e2" />
+
+Once you have entered the MariaDB shell as shown above, you have to enter the following  
+```
+CREATE DATABASE databasename; (change 'databasename' to any name you want)
+CREATE USER 'username'@'% IDENTIFIED BY 'password' (change 'username' and 'password' to what you want, replace '%' to 'localhost')
+GRANT ALL PRIVILEGES ON dataasename.* TO 'username'@'%';
+FLUSH PRIVILEGES; (reloads permissions immediately)
+```
+Once database is configured, go to your ip using your local browser and you should be prompted with the following:  
+
+
+
+
+
 
 
 
