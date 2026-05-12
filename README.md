@@ -140,11 +140,26 @@ sudo mysql -u root -p
 Once you have entered the MariaDB shell as shown above, you have to enter the following  
 ```
 CREATE DATABASE databasename; (change 'databasename' to any name you want)
-CREATE USER 'username'@'% IDENTIFIED BY 'password' (change 'username' and 'password' to what you want, replace '%' to 'localhost')
+CREATE USER 'username'@'% IDENTIFIED BY 'password'; (change 'username' and 'password' to what you want, replace '%' to 'localhost')
 GRANT ALL PRIVILEGES ON dataasename.* TO 'username'@'%';
 FLUSH PRIVILEGES; (reloads permissions immediately)
 ```
 Once database is configured, go to your ip using your local browser and you should be prompted with the following:  
+<img width="500" height="536" alt="image" src="https://github.com/user-attachments/assets/801c4545-1b5f-40aa-9e2c-7d290b7e3ce6" />
+
+<img width="982" height="708" alt="image" src="https://github.com/user-attachments/assets/89513894-4792-46ae-9e22-1e5c7b4aa15b" />
+
+Enter the database, usernae and password that you have created earlier and press submit.  
+
+<img width="911" height="830" alt="image" src="https://github.com/user-attachments/assets/2f13b224-5927-4612-9245-9c619d199a1a" />
+
+Enter your details and press 'Install Wordpress' 
+
+
+
+
+
+
 
 
 
