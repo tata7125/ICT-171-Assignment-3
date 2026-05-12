@@ -67,6 +67,52 @@ $ sudo ln -s /snap/bin/certbot /usr/local/bin/certbot
 $ sudo certbot --nginx
 ```
 
+## Obtaining Let's Encrypt SSL Certificate  
+Type these commands in order.  
+```
+sudo apt update
+sudo apt install certbot python3-certbot-nginx -y
+```
+Made sure my nginx is running by entering this command  
+```
+sudo systemctl status nginx
+```
+Requested for the SSL Certificate by entering  
+```
+sudo certbot --nginx -d countryhopper.life -d www.countryhopper.life
+```
+Auto-renewal test  
+```
+sudo certbot renew --dry-run
+```
+## Installing Apache2 and Maria DB
+Apache2 is needed to host WordPress websites, running PHP apps, serving HTML files.  
+Maria DB is needed to store data for my website.
+
+Enter these commands  
+```
+sudo apt install apache2
+sudo apt install mariadb-server mariadb-client
+```
+
+Run  
+```
+sudo mysql_secure_installation
+```
+You will then be prompted with  
+```
+Enter current password for root (enter for none):
+```
+
+
+
+
+
+
+
+
+
+
 
 
 
