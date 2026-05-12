@@ -149,7 +149,7 @@ Once database is configured, go to your ip using your local browser and you shou
 
 <img width="982" height="708" alt="image" src="https://github.com/user-attachments/assets/89513894-4792-46ae-9e22-1e5c7b4aa15b" />
 
-Enter the database, usernae and password that you have created earlier and press submit.  
+Enter the database, username and password that you have created earlier and press submit.  
 
 <img width="911" height="830" alt="image" src="https://github.com/user-attachments/assets/2f13b224-5927-4612-9245-9c619d199a1a" />
 
