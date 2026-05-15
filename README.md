@@ -10,11 +10,11 @@
  
 ## Overview   
 
-This project involves the deployment of a cloud-based travel blog using an Amazon EC2 instance. The website was first configured usig NGINX, followed by the installation of WordPress as the content management system. My blog website will showcase 5 different countries with recommemendations for each country such as places to visit, eat, and activities. 
+This project involves the deployment of a cloud-based travel blog using an Amazon EC2 instance. The website was first configured usig NGINX, followed by the installation of WordPress as the content management system, and scirpting to backup the website everyday. My blog website will showcase 5 different countries with recommemendations for each country such as places to visit, eat, and activities. 
 
-The project demonstrates the ability to provision and manage cloud infrastructure, configure a web server environment, and deploy a dynamic website accessible over the internet. Additional configuration such as domain integration and security (SSL/TLS) was implemented to improve accessibility and security.  
+This project shows the ability to set up and manage cloud infrastructure, configure a web serer, and deploy a dynamic website that can be accessed online. Extra features such as domain setup and SSL security were also added to improve website accessibility and security.
 
-Overall, this project showcases practical skills in cloud computing, server administration, and web application deployment. 
+Overall, the project shows my practical knowledge and skills in cloud computing server management, and website deployment. 
 
 
 ## EC2 Instance Setup  
